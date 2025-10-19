@@ -1,5 +1,8 @@
-import { app } from "../index";
+import { app } from "../index.ts";
+import { GetClientes } from "../libs/puxaMensagem.ts";
 
-app.post('/enviar', (req, res) => {
-    
+
+app.get('/enviar', async (req, res) => {
+    const users = await GetClientes()
+    return res.json(users)
 })
