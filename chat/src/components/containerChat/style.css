@@ -1,0 +1,7 @@
+.chat {
+    border: solid #000 3px;
+    height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+    flex-direction: column-reverse;
+}

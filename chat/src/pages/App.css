@@ -1,0 +1,17 @@
+.container {
+  width: 500px;
+  border: solid #fff;
+  padding: 5px;
+}
+
+.inputText {
+  width: 88%;
+}
+
+.nome {
+  gap: 5px;
+}
+
+.inputnome {
+  margin-left: 5px;
+}
