@@ -2,7 +2,6 @@ import './App.css'
 import ContainerChat from '../components/containerChat/index.tsx'
 import { useEffect, useState } from 'react'
 import { EnviaMsg, GetConversa } from '../services/messages.ts'
-import type { Imessages } from '../models/messages.ts'
 
 function App() {
   const [msg, setMSg] = useState('')
@@ -18,8 +17,6 @@ function App() {
         pk_id: 0
       }]
     })
-  
-    SetTodasMsgs('')
   }
 
   async function Mostra() {
